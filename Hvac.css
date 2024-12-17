@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.background {
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background: url(hvac_background.webp)center/cover;
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yazi {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.yazi button {
+    border: none;
+    font-size: medium;
+    background-color: yellow;
+    width: 250px;
+    height: 50px;
+}
+.yazi h3 {
+    font-size: x-large;
+}
+.yazi h1 {
+    font-size: 2.400rem;
+}
+.yazi h1,
+h3 {
+    color: white;
+}
+.yazi button a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+}
+.container {
+    width: 1400px;
+    margin: 20px auto;
+}
+.basliq {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.basliq .yazi_2 h4 {
+    font-size: larger;
+    color: rgb(102, 102, 223);
+    margin-bottom: 10px;
+}
+.basliq .yazi_2 h2 {
+    font-size: xx-large;
+}
+.basliq button {
+    font-size: medium;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    font-weight: 600;
+    border: solid 3px yellow;
+}
+.qutu {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%;
+    height: 500px;
+}
+.item {
+    width: 33%;
+    height: 500px;
+    position: relative;
+    transition: .3s;
+}
+.mehsul {
+    position: relative;
+    width: 100%;
+    height: 320px;
+}
+.mehsul img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(205, 196, 196);
+}
+.kicik {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(75, 149, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -9px;
+    left: 140px;
+    color: white;
+}
+.faiz {
+    position: absolute;
+    bottom: -9px;
+    left: 140px;
+    color: white;
+    background-color: rgb(179, 84, 84);
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.stock {
+    position: absolute;
+    bottom: -9px;
+    left: 120px;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.linkler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    gap: 10px;
+}
+.linkler a:nth-child(3) {
+    font-weight: bolder;
+    font-size: 1.500rem;
+}
+.linkler a {
+    color: black;
+}
+.item:hover a {
+    text-decoration: underline;
+}
+.kart {
+    font-size: x-large;
+    font-weight: 600;
+    position: absolute;
+    left: 110px;
+    visibility: hidden;
+    bottom: 15px;
+    color: rgb(87, 87, 184);
+}
+.item:hover .kart{
+    position: absolute;
+    bottom: 55px;
+    visibility: visible;
+}
+.item:hover .linkler a:nth-child(3) {
+    visibility: hidden;
+}
+.background_2{
+    background-color: rgb(212, 212, 226);
+    width: 100%;
+    height: 700px;
+    filter: brightness(110%);
+}
+.tips{
+    width: 100%;
+    height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.basliq_2{
+    margin-top: 80px;
+    width: 300px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-content: flex-end;
+    gap: 20px;
+}
+.basliq_2 h2{
+    font-size: xx-large;
+}
+.basliq_2 h4{
+    font-size: large;
+    color: rgb(106, 106, 182);
+}
+.container_2{
+    width: 1400px;
+    margin: 0 auto;
+}
+.qutu_2{
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.item_2{
+    width: 32%;
+    height: 100%;
+}
+.sekil{
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+.sekil img{
+    width: 100%;
+    height: 100%;
+}
+.yazi_3{
+    width: 105px;
+    height: 25px;
+    background-color: rgb(175, 175, 8);
+    color: white;
+    position: absolute;
+    left: 170px;
+    bottom: -12px;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+.link{
+margin-top: 20px;
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: center;
+
+}
+.link a{
+    font-size: x-large;
+    color: black;
+}
+.saat{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-self: start;
+    gap: 10px;
+    color: gray;
+}
+span{
+    color: rgb(132, 132, 234);
+}
+.item_2:hover a{
+text-decoration: underline;
+}
+ 
